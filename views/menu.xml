@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem name="24 Law" id="24law_root_menu" web_icon="24law,static/img/24law.png"/>
+    <menuitem name="Matter" id="24law_matter_menu" parent="24law_root_menu"
+              sequence="1" action="action_24law_matter"/>
+    <menuitem name="Clients" id="24law_client_menu" parent="24law_root_menu"
+              sequence="2" action="base.action_partner_customer_form"/>
+    <menuitem name="Lawyers" id="24law_lawyer_menu" parent="24law_root_menu"
+              sequence="3" action="action_lawyers"/>
+
+
+</odoo>

@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_24law_24law,24law.24law,model_24law_24law,,1,0,0,0
+access_matter_24law,matter.24law,model_matter_24law,,1,1,1,1

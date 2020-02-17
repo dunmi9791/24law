@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+ <record model="ir.actions.act_window" id="action_24law_matter">
+        <field name="name">Matters</field>
+        <field name="res_model">matter.24law</field>
+        <field name="view_mode">tree,form,kanban</field>
+    </record>
+    <record model="ir.actions.act_window" id="action_24law_lawyer">
+        <field name="name">lawyers</field>
+        <field name="res_model">hr.employee</field>
+        <field name="view_mode">tree,form,kanban</field>
+    </record>
+    <record id="action_lawyers" model="ir.actions.act_window">
+        <field name="name">Lawyers</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.employee</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="context">{"search_default_lawyer":1}</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Add your first Lawyer !
+          </p>
+        </field>
+    </record>
+</odoo>
