@@ -15,7 +15,7 @@ class Matter(models.Model):
     open_date = fields.Date(string="Openning Date", required=False, )
     type_matter = fields.Selection(string="Type", selection=[('civil', 'Civil'), ('criminal', 'Criminal'), ], required=False, )
     category_matter = fields.Selection(string="Category", selection=[('first', 'First'), ('second', 'Second')])
-    lawyer = fields.Many2one(comodel_name="res.user", string="Lawyer Assigned")
+    lawyer = fields.Many2one(comodel_name="hr.employee", string="Lawyer Assigned", domain="[('is_lawyer','=',True)]")
 
     @api.model
     def create(self, vals):

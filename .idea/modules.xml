@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/24law.iml" filepath="$PROJECT_DIR$/.idea/24law.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Downloads/odoo/.idea/odoo.iml" filepath="$PROJECT_DIR$/../Downloads/odoo/.idea/odoo.iml" />
     </modules>
   </component>
 </project>

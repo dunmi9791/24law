@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_matter_24law,matter.24law,model_matter_24law,,1,1,1,1
+access_matter_24law2,matter.24law2,model_hr_employee,,1,1,1,1

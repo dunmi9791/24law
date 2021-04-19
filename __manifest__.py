@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'mail', 'contacts', 'account'],
+    'depends': ['base', 'mail', 'contacts', 'account', 'calendar', 'board'],
 
     # always loaded
     'data': [
